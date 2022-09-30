@@ -1,0 +1,35 @@
+
+.checkbox {
+    display: none
+}
+
+.label {
+    padding-left: 20px;
+}
+
+.label::before {
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+   background-color: #3775dd;
+    margin-left: -10px;
+    margin-right: 10px;
+    vertical-align: middle; /*label сдвинули на середину*/
+    transition: 0.2s; /*элементы меняются плавно*/
+    border-radius: 4px;
+opacity: 0.8;
+
+}
+
+.checkbox:checked + label::before {
+    content: "";
+    text-align: center;
+    font-family: sans-serif;
+    color: white;
+    background-image: url("./checked.png");
+    background-size: 100%;
+    background-color: white;
+    opacity: 1;
+
+}

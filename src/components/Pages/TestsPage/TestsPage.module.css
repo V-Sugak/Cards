@@ -1,0 +1,13 @@
+.inputBlock {
+    height: 115px;
+    padding-top: 10px;
+}
+
+.blue {
+    border-bottom: 5px solid blue;
+}
+
+.editableBlock {
+    height: 60px;
+    padding-top: 10px;
+}

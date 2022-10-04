@@ -1,0 +1,16 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+    height: 50px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav a:focus,.nav a:hover  {
+    color: #002fed;
+}
